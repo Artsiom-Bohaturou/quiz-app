@@ -1,0 +1,10 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: url(../images/background.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

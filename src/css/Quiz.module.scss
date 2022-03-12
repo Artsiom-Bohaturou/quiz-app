@@ -1,0 +1,35 @@
+.Quiz {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .AnswersList {
+        overflow-y: auto;
+
+        &::-webkit-scrollbar {
+            width: 3px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #808080;
+            border-radius: 2px;
+            width: 100%;
+        }
+    }
+
+    & .QuestionContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            font-weight: 700;
+            font-size: 20px;
+        }
+    }
+}
